@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: purple;
+}
+
+td {
+  border: 1px solid black;
+  font-size: 20px;
+  width: 22px;
+  height: 22px;
+  padding: 12px;
+  text-align: center;
+  background-color: white;
+}
+
+#tab {
+  margin: 20px;
+  position: relative;
+  left: 32%;
+  top: 5rem;
+}
+
+#tab tr:nth-child(1) td:nth-child(1) {
+  background-color: red;
+}
+
+#tab tr:nth-child(8) td:nth-child(8) {
+  background-color: blue;
+}
+
+#tab tr:nth-child(2) td:nth-child(1) {
+  background-color: rgb(255, 218, 218);
+}
+
+#tab tr:nth-child(7) td:nth-child(8) {
+  background-color: rgb(197, 197, 255);
+}
+
+img {
+  position: absolute;
+  left: 47.1%;
+  top: 32.9rem;
+  height: 70px;
+  width: 80px;
+}
+#tab1 {
+  position: absolute;
+  left: 41.4%;
+  top: 13.5rem;
+  width: 12.8rem;
+}
+.a1, .a2{
+ border: 1px solid yellow;
+ text-align: center;
+ width: 7rem;
+ height: 5rem;
+ font-size: 2rem;
+ padding: 6px;
+ background-color: greenyellow;
+}
+.a1{
+  position: absolute;
+  top: 6.5rem;
+  left: 22%;
+}
+.a2{
+  position: absolute;
+  left: 66.7%;
+  top: 25.5rem;
+}
+
+#tab1 tr:nth-child(2) td{
+  background-color: lightgrey;
+}
+
+h1{
+  position: absolute;
+  color: deeppink;
+  font-size: 4rem;
+  left: 42%;
+  top: 7px;
+}
+
+h2{
+  position: absolute;
+  left: 34%;
+  top: 34rem;
+  color: khaki;
+  font-style: oblique;
+  padding: 2px;
+}
